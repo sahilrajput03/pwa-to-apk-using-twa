@@ -1,0 +1,5 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "io.chetanmishra8660.io",
+               "sha256_cert_fingerprints": ["81:53:67:85:B1:09:58:F0:72:08:86:75:18:A2:35:AD:FE:AB:34:F5:F6:72:DD:DB:B3:24:CE:5F:C8:40:AB:6A"] }
+}]

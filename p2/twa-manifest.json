@@ -1,0 +1,39 @@
+{
+  "packageId": "io.github.chetanmishra8660.twa",
+  "host": "chetanmishra8660.github.io",
+  "name": "Jaadu Jinn",
+  "launcherName": "Jaadu Jinn",
+  "display": "fullscreen",
+  "themeColor": "#2196F3",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#FFFFFF",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://1.bp.blogspot.com/-NIwZkk_DQIo/XWi8gswIAmI/AAAAAAAABxo/tgbMmy0hNv4tJj0E3lDJVXXrk07yASdOgCK4BGAYYCw/s320/android-chrome-512x512.png",
+  "maskableIconUrl": "https://1.bp.blogspot.com/-NIwZkk_DQIo/XWi8gswIAmI/AAAAAAAABxo/tgbMmy0hNv4tJj0E3lDJVXXrk07yASdOgCK4BGAYYCw/s320/android-chrome-512x512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "/home/array/test/j-amz/p2/android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://chetanmishra8660.github.io/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "orientation": "default",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "appVersion": "1"
+}
