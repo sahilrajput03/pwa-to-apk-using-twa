@@ -1,6 +1,6 @@
 # Bubblewrap
 
-**A working full screen (ready to publish to playstore) apk is [here](./bw.apk).
+**A working full screen (ready to publish to playstore) apk is [here](./bw.apk).**
 
 A npm package (from google itself): https://www.npmjs.com/package/@bubblewrap/cli
 
