@@ -1,6 +1,7 @@
 
 **Quick Links:**
 - **Convert your website into a native app:** [Click here](https://gonative.io/)
+- Readme2.md: [Click here](Readme2.md)
 
 # Bubblewrap
 
