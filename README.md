@@ -53,7 +53,7 @@ find /usr -name java | grep jdk
 # /usr/lib/jvm/java-17-openjdk/bin/java
 # /usr/lib/jvm/java-11-openjdk/bin/java
 
-# SO FROM ABOVE OUTPUT I CONCLUDED THAT MY JDK 11 PATH (coz with 17 bubblewrap throws error) is: /usr/lib/jvm/java-11-openjdk
+# From above logs I see that my JDK 11 path (coz with 17 bubblewrap throws error) is: /usr/lib/jvm/java-11-openjdk
 # SRC: https://stackoverflow.com/a/5251365/10012446
 
 # 3. For maskable icon path:
