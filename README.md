@@ -45,7 +45,8 @@ mkdir p1 && cd p1
 bubblewrap init --manifest https://chetanmishra8660.github.io/manifest.json
 
 ##### 
-# 1. For JAVA SDK you may supply path as I have concluded using some commands below but, for `androidtools` you must allow  bubblewrpa to install on its own. THATS IMPORTANT OTHERWISE bubblewrap build command won't work at all.
+# 1. For JAVA SDK you may supply path as I have concluded using some commands below but, for `androidtools` you must allow
+# bubblewrap to install on its own. THATS IMPORTANT OTHERWISE bubblewrap build command won't work at all.
 # ^^ src: https://github.com/GoogleChromeLabs/bubblewrap/issues/606
 
 # 2. Finding path of JDK path:
