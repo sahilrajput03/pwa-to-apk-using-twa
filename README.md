@@ -136,7 +136,7 @@ apksigner verify android-prod-released-signed.apk
 
 # Some WebApks
 
-<img src="https://github.com/sahilrajput03/pwa-to-apk-using-twa/assets/31458531/8903730e-9e60-46c3-900e-621c652bae87" alt="drawing" width="700"/>
+<img src="https://github.com/sahilrajput03/pwa-to-apk-using-twa/assets/31458531/8903730e-9e60-46c3-900e-621c652bae87" alt="drawing" width="200"/>
 
 # `display: standalone` vs. `display: fullscreen` in `manifest.json` file
 
