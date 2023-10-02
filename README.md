@@ -7,7 +7,7 @@
 
 **Sample APK: [Click here](https://github.com/sahilrajput03/pwa-to-apk-using-twa/raw/main/bw.apk).**
 
-A npm package (from google itself): https://www.npmjs.com/package/@bubblewrap/cli
+Bubblewrap (npm): [Click here](https://www.npmjs.com/package/@bubblewrap/cli)
 
 **We can hide url bar in apks generated using TWA.**
 
