@@ -134,7 +134,9 @@ zipalign -v 4 app-release-unsigned.apk app-release-signed.apk
 apksigner verify android-prod-released-signed.apk
 ```
 
+## Generating `manifest.json` file
 
+- https://www.simicart.com/manifest-generator.html
 
 ## Some Q/A's with chatgpt
 
