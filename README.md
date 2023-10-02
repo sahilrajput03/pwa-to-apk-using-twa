@@ -84,7 +84,7 @@ keytool -list -v -keystore android.keystore -alias android -storepass 123456
 
 ## Putting asset-link file on website
 
-**Json generated from `https://developers.google.com/digital-asset-links/tools/generator` and uploading that to my site at path `/.well-known/assetlinks.json`**
+**Json generated from https://developers.google.com/digital-asset-links/tools/generator and uploading that to my site at path `/.well-known/assetlinks.json`**
 
 ALSO since I was using jekyll at chetanmishra8660.github.io, simply putting anything in the root is not put into the final build when github generates the build so I had to do below fix.
 
