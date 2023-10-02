@@ -9,11 +9,9 @@
 
 Bubblewrap (npm): [Click here](https://www.npmjs.com/package/@bubblewrap/cli)
 
-**We can hide url bar in apks generated using TWA.**
-
 **Q1. Url bar is showing up in the app?**
 
-_Ans. The problem with my app earlier was bcoz of asset-link verification failed. I debugged this by executing `adb logcat | grep -e OriginVerifier -e digital_asset_links` command and saw about this asset-link failure there. So the reason for this was bcoz I was using different package_name in the `domain.com/.well-known/assetlinks.json` and my android-project's application_id. We are suppose to set application_id for the andorid app during the initilization of the project i.e., when we run `bubblewrap init ...` command._
+_Ans. We can hide url bar in apks generated using TWA. The problem with my app earlier was bcoz of asset-link verification failed. I debugged this by executing `adb logcat | grep -e OriginVerifier -e digital_asset_links` command and saw about this asset-link failure there. So the reason for this was bcoz I was using different package_name in the `domain.com/.well-known/assetlinks.json` and my android-project's application_id. We are suppose to set application_id for the andorid app during the initilization of the project i.e., when we run `bubblewrap init ...` command._
 
 **Q2. What does https://developers.google.com/digital-asset-links/tools/generator do??**
 
