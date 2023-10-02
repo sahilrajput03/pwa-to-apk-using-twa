@@ -1,6 +1,8 @@
 
 **Quick Links:**
-- **Convert your website into a native app:** [Click here](https://gonative.io/)
+- **Convert your website into a native app:**
+  - https://gonative.io/
+  - https://www.pwabuilder.com/, [Article](https://www.davrous.com/2020/02/07/publishing-your-pwa-in-the-play-store-in-a-couple-of-minutes-using-pwa-builder)
 - **Readme2.md:** [Click here](Readme2.md)
 
 # Bubblewrap
@@ -30,8 +32,6 @@ Hosting site domain                     chetanmishra8660.github.io
 application_id (App package name):      io.github.chetanmishra8660.twa
 App package fingerprint (SHA256):       06:6F:45:81:9C:5D:40:12:D2:93:2F:79:27:49:47:96:FF:26:18:58:54:BA:0F:7F:D7:9B:08:DE:CE:E7:A9:81
 ```
-
-**FYI: https://www.pwabuilder.com/ is also converting sites to apks, you can read @ https://www.davrous.com/2020/02/07/publishing-your-pwa-in-the-play-store-in-a-couple-of-minutes-using-pwa-builder/**
 
 **official article that fireship.io used to make the tutorial: https://svenbudak.medium.com/this-twa-stuff-rocks-finally-i-got-my-pwa-on-google-play-store-b92fe8dae31f**
 
