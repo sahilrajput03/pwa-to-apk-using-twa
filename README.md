@@ -9,7 +9,7 @@
 
 **Sample APK: [Click here](https://github.com/sahilrajput03/pwa-to-apk-using-twa/raw/main/bw.apk).**
 
-Bubblewrap (npm): [Click here](https://www.npmjs.com/package/@bubblewrap/cli)
+Bubblewrap (@npm): [Click here](https://www.npmjs.com/package/@bubblewrap/cli)
 
 **Q. Url bar is showing up in the app?**
 
