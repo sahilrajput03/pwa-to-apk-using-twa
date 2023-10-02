@@ -5,7 +5,7 @@
 
 # Bubblewrap
 
-**A working full screen (ready to publish to playstore) apk is [here](https://github.com/sahilrajput03/pwa-to-apk-using-twa/raw/main/bw.apk).**
+**Sample APK: [Click here](https://github.com/sahilrajput03/pwa-to-apk-using-twa/raw/main/bw.apk).**
 
 A npm package (from google itself): https://www.npmjs.com/package/@bubblewrap/cli
 
