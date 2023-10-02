@@ -134,21 +134,23 @@ zipalign -v 4 app-release-unsigned.apk app-release-signed.apk
 apksigner verify android-prod-released-signed.apk
 ```
 
-# Some WebApks
-
-<img src="https://github.com/sahilrajput03/pwa-to-apk-using-twa/assets/31458531/8903730e-9e60-46c3-900e-621c652bae87" alt="drawing" width="200"/>
-
-# `display: standalone` vs. `display: fullscreen` in `manifest.json` file
-
-<img src="https://github.com/sahilrajput03/pwa-to-apk-using-twa/assets/31458531/4a116ae4-19b7-48c5-bd68-1c53a4cbedf9" alt="drawing" width="700"/>
-
-<img src="https://github.com/sahilrajput03/pwa-to-apk-using-twa/assets/31458531/7e616968-2426-4dbf-84ef-eab26b252f4a" alt="drawing" width="700"/>
 
 
-# Some Q/A's with chatgpt
+## Some Q/A's with chatgpt
 
 - suggest package names for the playstore application which I am making for website: sahilrajput.com
 - Why are above names start with com. ?
 - How do I ensure the availability of the chosen package name on the Play Store?
 
 [Click here](https://chat.openai.com/share/01e118d2-a5e2-4521-ad56-01bcb0b1a2e2)
+
+
+## Some WebApks
+
+<img src="https://github.com/sahilrajput03/pwa-to-apk-using-twa/assets/31458531/8903730e-9e60-46c3-900e-621c652bae87" alt="drawing" width="200"/>
+
+## `display: standalone` vs. `display: fullscreen` in `manifest.json` file
+
+<img src="https://github.com/sahilrajput03/pwa-to-apk-using-twa/assets/31458531/4a116ae4-19b7-48c5-bd68-1c53a4cbedf9" alt="drawing" width="700"/>
+
+<img src="https://github.com/sahilrajput03/pwa-to-apk-using-twa/assets/31458531/7e616968-2426-4dbf-84ef-eab26b252f4a" alt="drawing" width="700"/>
