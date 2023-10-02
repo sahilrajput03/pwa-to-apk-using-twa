@@ -13,13 +13,13 @@ Bubblewrap (npm): [Click here](https://www.npmjs.com/package/@bubblewrap/cli)
 
 _Ans. We can hide url bar in apks generated using TWA. The problem with my app earlier was bcoz of asset-link verification failed. I debugged this by executing `adb logcat | grep -e OriginVerifier -e digital_asset_links` command and saw about this asset-link failure there. So the reason for this was bcoz I was using different package_name in the `domain.com/.well-known/assetlinks.json` and my android-project's application_id. We are suppose to set application_id for the andorid app during the initilization of the project i.e., when we run `bubblewrap init ...` command._
 
-**Q2. What does https://developers.google.com/digital-asset-links/tools/generator do??**
+**Q2. What does https://developers.google.com/digital-asset-links/tools/generator do?**
 
 _Ans. We put our sha256 fingerprint (public key) contained in a json file i.e., `/.well-known/assetlinks.json` which we need to generate from above asset-link-tool-generator link. The good thing there is that we can use the test buton if the content is live at right place and the content is correct as well. So its a 2 two step process i.e., first you put your (domian, packageName (you get this from your `android-project`), SHA256 fingerprint) and then you update that your site and wait for the site to be up with the new data(you must be able to browse it via `yourdomian.com/.well-known/assetlinks.json` url)._
 
 IMPORTANT(where do I get package_name ??): The package name you use must be same as the `application_id` which you set during the time you create your android-project via `bubblewrap init ...` command. If you forgot your application_id, you can you view it by going to `my-android-project/twa-manifest.json` file and look for `packageId` property.
 
-TEST @ https://developers.google.com/digital-asset-links/tools/generator
+We can verify our `.well-known/assetlinks.json` file from here: https://developers.google.com/digital-asset-links/tools/generator
 
 ```txt
 chetanmishra8660.github.io
