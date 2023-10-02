@@ -2,8 +2,8 @@
 
 **Deploy website to playstore-**
 
-1. Hybrid web view app using Ionic (but downside is that we would need to )
-2. Use TWA (trusted web activites) REFER MY [OWN REPO TO SEE THIS AWESOME WAY](https://github.com/sahilrajput03/pwa-to-apk-using-twa/tree/main).
+1. Hybrid web view app using Ionic/Capacitor
+2. TWA using BubbleWrap.
 
 **FYI:**
 
