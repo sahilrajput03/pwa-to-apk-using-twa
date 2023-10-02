@@ -40,6 +40,7 @@ App package fingerprint (SHA256):                    06:6F:45:81:9C:5D:40:12:D2:
 ```bash
 ###### INITIALIZE A ANDROID-PROJECT
 # Also: You can use an existing keystore file or you would be asked to create new keystore file as well, fyi: I have tried creating my keystore file before this so I used that one and that flow worked really good{see later in this to know how to generate the keystore file})
+npm i -g @bubblewrap/cli
 mkdir p1 && cd p1
 bubblewrap init --manifest https://chetanmishra8660.github.io/manifest.json
 
