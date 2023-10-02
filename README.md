@@ -44,10 +44,10 @@ mkdir p1 && cd p1
 bubblewrap init --manifest https://chetanmishra8660.github.io/manifest.json
 
 ##### 
-# 1 For JAVA SDK you may supply path as I have concluded using some commands below but, for `androidtools` you must allow  bubblewrpa to install on its own. THATS IMPORTANT OTHERWISE bubblewrap build command won't work at all.
+# 1. For JAVA SDK you may supply path as I have concluded using some commands below but, for `androidtools` you must allow  bubblewrpa to install on its own. THATS IMPORTANT OTHERWISE bubblewrap build command won't work at all.
 # ^^ src: https://github.com/GoogleChromeLabs/bubblewrap/issues/606
 
-# 2 Finding path of JDK path:
+# 2. Finding path of JDK path:
 find /usr -name java | grep jdk
 # Output:
 # /usr/lib/jvm/java-17-openjdk/bin/java
@@ -56,17 +56,17 @@ find /usr -name java | grep jdk
 # SO FROM ABOVE OUTPUT I CONCLUDED THAT MY JDK 11 PATH (coz with 17 bubblewrap throws error) is: /usr/lib/jvm/java-11-openjdk
 # SRC: https://stackoverflow.com/a/5251365/10012446
 
-#3# For maskable icon path:
+# 3. For maskable icon path:
 https://1.bp.blogspot.com/-NIwZkk_DQIo/XWi8gswIAmI/AAAAAAAABxo/tgbMmy0hNv4tJj0E3lDJVXXrk07yASdOgCK4BGAYYCw/s320/android-chrome-512x512.png
 
-#4# For keyname I used default i.e., android
+# 4. For keyname I used default i.e., android
 
-#5# After above `bubblewrap init ...` is successful it prints message like:
+# 5. After above `bubblewrap init ...` is successful it prints message like:
 # Output: Project generated successfully. Build it by running bubblewrap build
 
 ######### Building wiht bubblewrap ############
 bubblewrap build
-#6 Password for Key Store and Password for Key: 123456
+# 6. Password for Key Store and Password for Key: 123456
 ```
 
 ## Generate Keystore file
