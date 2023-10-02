@@ -136,10 +136,12 @@ apksigner verify android-prod-released-signed.apk
 
 ## Generating `manifest.json` file
 
-- https://www.simicart.com/manifest-generator.html
-- working files:
-  - https://github.com/chetanmishra8660/chetanmishra8660.github.io/blob/master/manifest.json
-  - https://github.com/chetanmishra8660/chetanmishra8660.github.io/blob/master/.well-known/assetlinks.json
+- Currently used for sahilrajput.com (not tested): https://www.simicart.com/manifest-generator.html
+- **Working files:**
+  - https://chetanmishra8660.github.io/manifest.json
+    - https://github.com/chetanmishra8660/chetanmishra8660.github.io/blob/master/manifest.json
+  - https://chetanmishra8660.github.io/.well-known/assetlinks.json
+    - https://github.com/chetanmishra8660/chetanmishra8660.github.io/blob/master/.well-known/assetlinks.json
 
 ## Some Q/A's with chatgpt
 
