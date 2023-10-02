@@ -134,7 +134,7 @@ zipalign -v 4 app-release-unsigned.apk app-release-signed.apk
 apksigner verify android-prod-released-signed.apk
 ```
 
-## Generating `manifest.json` file
+## Generate `manifest.json` file
 
 - Currently used for sahilrajput.com (not tested): https://www.simicart.com/manifest-generator.html
 - **Working files:**
