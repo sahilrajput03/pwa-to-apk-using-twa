@@ -71,7 +71,7 @@ bubblewrap build
 #6 Password for Key Store and Password for Key: 123456
 ```
 
-## GENERATE KEYSTORE FILE
+## Generate Keystore file
 
 ```bash
 # src: https://stackoverflow.com/a/15330139/10012446
