@@ -138,8 +138,8 @@ apksigner verify android-prod-released-signed.apk
 
 - https://www.simicart.com/manifest-generator.html
 - working files:
-  - https://github.com/chetanmishra8660/chetanmishra8660.github.io/blob/master/.well-known/assetlinks.json
   - https://github.com/chetanmishra8660/chetanmishra8660.github.io/blob/master/manifest.json
+  - https://github.com/chetanmishra8660/chetanmishra8660.github.io/blob/master/.well-known/assetlinks.json
 
 ## Some Q/A's with chatgpt
 
