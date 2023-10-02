@@ -9,11 +9,7 @@
 
 A npm package (from google itself): https://www.npmjs.com/package/@bubblewrap/cli
 
-**Motivation - Fireship.io: https://www.youtube.com/watch?v=7JDFjeMvxos**
-
-**Bubblewrap is love to work with!!**
-
-**We can hide url bar in apks generated using TWA, yikes!**
+**We can hide url bar in apks generated using TWA.**
 
 **Q1. Url bar is showing up in the app?**
 
