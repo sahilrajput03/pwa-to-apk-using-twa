@@ -17,7 +17,7 @@ _Ans. We can hide url bar in apks generated using TWA. The problem with my app e
 
 **Q. What does https://developers.google.com/digital-asset-links/tools/generator do?**
 
-_Ans. We put our sha256 fingerprint (public key) contained in a json file i.e., `/.well-known/assetlinks.json` which we need to generate from above asset-link-tool-generator link. The good thing there is that we can use the test buton if the content is live at right place and the content is correct as well. So its a 2 two step process i.e., first you put your (domian, packageName (you get this from your `android-project`), SHA256 fingerprint) and then you update that your site and wait for the site to be up with the new data(you must be able to browse it via `yourdomian.com/.well-known/assetlinks.json` url)._
+_Ans. We put our sha256 fingerprint (public key) contained in a json file i.e., `/.well-known/assetlinks.json` which we need to generate from above asset-link-tool-generator link. The good thing there is that we can use the test buton if the content is live at right place and the content is correct as well. So its a 2 two step process i.e., first you put your (domian, packageName (you get this from your `android-project`), SHA256 fingerprint) and then you update that your site and wait for the site to be up with the new data (you must be able to browse it via `yourdomian.com/.well-known/assetlinks.json` url)._
 
 **Q. Where do I get `package_name`?**
 
