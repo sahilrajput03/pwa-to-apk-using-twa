@@ -39,15 +39,15 @@ App package fingerprint (SHA256):       06:6F:45:81:9C:5D:40:12:D2:93:2F:79:27:4
 
 ```bash
 ###### INITIALIZE A ANDROID-PROJECT
-#FYI: (You can use a existing keystore file or you would be asked to create new keystore file as well, fyi: I have tried creating my keystore file before this so I used that one and that flow worked really good{see later in this to know how to generate the keystore file})
+# Also: You can use an existing keystore file or you would be asked to create new keystore file as well, fyi: I have tried creating my keystore file before this so I used that one and that flow worked really good{see later in this to know how to generate the keystore file})
 mkdir p1 && cd p1
 bubblewrap init --manifest https://chetanmishra8660.github.io/manifest.json
 
-##### NOW A QUESTIONIARE WOULD FOLLOW UP AND FOR SOMETHING YOU MUST READ BELOW TEXT FOR ONCE TO SIDESTEP THE DIFFICULTIES I FACED BEFORE.
-#1# -- important disclaimer for JAVA SDK you may supply path as I have concluded using some commands below but, for `androidtools` you must allow  bubblewrpa to install on its own. THATS IMPORTANT OTHERWISE bubblewrap build command won't work at all.
+##### 
+# 1 For JAVA SDK you may supply path as I have concluded using some commands below but, for `androidtools` you must allow  bubblewrpa to install on its own. THATS IMPORTANT OTHERWISE bubblewrap build command won't work at all.
 # ^^ src: https://github.com/GoogleChromeLabs/bubblewrap/issues/606
 
-#2# Finding path of JDK path:
+# 2 Finding path of JDK path:
 find /usr -name java | grep jdk
 # Output:
 # /usr/lib/jvm/java-17-openjdk/bin/java
