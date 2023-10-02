@@ -144,3 +144,11 @@ apksigner verify android-prod-released-signed.apk
 
 <img src="https://github.com/sahilrajput03/pwa-to-apk-using-twa/assets/31458531/7e616968-2426-4dbf-84ef-eab26b252f4a" alt="drawing" width="700"/>
 
+
+# Some Q/A's with chatgpt
+
+- suggest package names for the playstore application which I am making for website: sahilrajput.com
+- Why are above names start with com. ?
+- How do I ensure the availability of the chosen package name on the Play Store?
+
+[Click here](https://chat.openai.com/share/01e118d2-a5e2-4521-ad56-01bcb0b1a2e2)
