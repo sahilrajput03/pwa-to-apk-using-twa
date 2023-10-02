@@ -9,7 +9,7 @@
 
 A npm package (from google itself): https://www.npmjs.com/package/@bubblewrap/cli
 
-**Motivation (Jeff ~Fireship.io): https://www.youtube.com/watch?v=7JDFjeMvxos**
+**Motivation - Fireship.io: https://www.youtube.com/watch?v=7JDFjeMvxos**
 
 **Bubblewrap is love to work with!!**
 
