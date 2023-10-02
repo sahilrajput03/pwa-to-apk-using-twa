@@ -35,7 +35,7 @@ App package fingerprint (SHA256):       06:6F:45:81:9C:5D:40:12:D2:93:2F:79:27:4
 
 **official article that fireship.io used to make the tutorial: https://svenbudak.medium.com/this-twa-stuff-rocks-finally-i-got-my-pwa-on-google-play-store-b92fe8dae31f**
 
-**Statement list generator(useful to create public key data for our website):** https://developers.google.com/digital-asset-links/tools/generator
+**Statement list generator (useful to create public key data for our website):** https://developers.google.com/digital-asset-links/tools/generator
 
 ```bash
 ###### INITIALIZE A ANDROID-PROJECT
