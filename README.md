@@ -57,7 +57,7 @@ find /usr -name java | grep jdk
 # SRC: https://stackoverflow.com/a/5251365/10012446
 
 # 3. For maskable icon path:
-https://1.bp.blogspot.com/-NIwZkk_DQIo/XWi8gswIAmI/AAAAAAAABxo/tgbMmy0hNv4tJj0E3lDJVXXrk07yASdOgCK4BGAYYCw/s320/android-chrome-512x512.png
+# https://1.bp.blogspot.com/-NIwZkk_DQIo/XWi8gswIAmI/AAAAAAAABxo/tgbMmy0hNv4tJj0E3lDJVXXrk07yASdOgCK4BGAYYCw/s320/android-chrome-512x512.png
 
 # 4. For keyname I used default i.e., android
 
