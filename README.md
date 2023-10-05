@@ -1,7 +1,7 @@
 
 **Quick Links:**
 - **Convert your website into a native app:**
-  - https://gonative.io/
+  - https://median.co/ (previously: https://gonative.io)
   - https://www.pwabuilder.com/, [Article](https://www.davrous.com/2020/02/07/publishing-your-pwa-in-the-play-store-in-a-couple-of-minutes-using-pwa-builder)
 - **Readme2.md:** [Click here](Readme2.md)
 
