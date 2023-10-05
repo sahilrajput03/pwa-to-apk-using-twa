@@ -15,6 +15,19 @@ Bubblewrap (@npm): [Click here](https://www.npmjs.com/package/@bubblewrap/cli)
 
 _Ans. We can hide url bar in apks generated using TWA. The problem with my app earlier was bcoz of asset-link verification failed. I debugged this by executing `adb logcat | grep -e OriginVerifier -e digital_asset_links` command and saw about this asset-link failure there. So the reason for this was bcoz I was using different package_name in the `domain.com/.well-known/assetlinks.json` and my android-project's application_id. We are suppose to set application_id for the andorid app during the initilization of the project i.e., when we run `bubblewrap init ...` command._
 
+**Q. Generate/Create keystore file and getting SHA256 fingerprint**
+
+```bash
+# src: https://stackoverflow.com/a/15330139/10012446
+keytool -genkey -v -keystore android.keystore -alias android -keyalg RSA -keysize 2048 -validity 10000
+# I used password as 123456
+
+# Getting SHA fingerprint from the keystore file (IMPORTANT: I didn't set passkey though)
+keytool -list -v -keystore android.keystore -alias android -storepass 123456
+
+# Save this SHA256 fingerprint: 06:6F:45:81:9C:5D:40:12:D2:93:2F:79:27:49:47:96:FF:26:18:58:54:BA:0F:7F:D7:9B:08:DE:CE:E7:A9:81
+```
+
 **Q. What does https://developers.google.com/digital-asset-links/tools/generator do?**
 
 _Ans. We put our sha256 fingerprint (public key) contained in a json file i.e., `/.well-known/assetlinks.json` which we need to generate from above asset-link-tool-generator link. The good thing there is that we can use the test buton if the content is live at right place and the content is correct as well. So its a 2 two step process i.e., first you put your (domian, packageName (you get this from your `android-project`), SHA256 fingerprint) and then you update that your site and wait for the site to be up with the new data (you must be able to browse it via `yourdomian.com/.well-known/assetlinks.json` url)._
@@ -73,19 +86,6 @@ find /usr -name java | grep jdk
 ######### Building wiht bubblewrap ############
 bubblewrap build
 # 6. Password for Key Store and Password for Key: 123456
-```
-
-## Generate Keystore file
-
-```bash
-# src: https://stackoverflow.com/a/15330139/10012446
-keytool -genkey -v -keystore android.keystore -alias android -keyalg RSA -keysize 2048 -validity 10000
-# I used password as 123456
-
-# Getting SHA fingerprint from the keystore file (IMPORTANT: I didn't set passkey though)
-keytool -list -v -keystore android.keystore -alias android -storepass 123456
-
-# Save this SHA256 fingerprint: 06:6F:45:81:9C:5D:40:12:D2:93:2F:79:27:49:47:96:FF:26:18:58:54:BA:0F:7F:D7:9B:08:DE:CE:E7:A9:81
 ```
 
 ## Putting asset-link file on website
