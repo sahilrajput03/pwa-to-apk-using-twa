@@ -166,3 +166,7 @@ apksigner verify android-prod-released-signed.apk
 <img src="https://github.com/sahilrajput03/pwa-to-apk-using-twa/assets/31458531/4a116ae4-19b7-48c5-bd68-1c53a4cbedf9" alt="drawing" width="700"/>
 
 <img src="https://github.com/sahilrajput03/pwa-to-apk-using-twa/assets/31458531/7e616968-2426-4dbf-84ef-eab26b252f4a" alt="drawing" width="700"/>
+
+## Is it okay to use same keystore file for all apps on play console
+
+![image](https://github.com/sahilrajput03/pwa-to-apk-using-twa/assets/31458531/607c94fa-b6d0-4cd2-bd61-596177357814)
