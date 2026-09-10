@@ -26,11 +26,11 @@ def twaManifest = [
     launchUrl: '/', // The start path for the TWA. Must be relative to the domain.
     name: 'Tech Blog by Sahil Rajput', // The application name.
     launcherName: 'Tech Blog by Sahil Rajput', // The name shown on the Android Launcher.
-    themeColor: '#000000', // The color used for the status bar.
+    themeColor: '#FFFFFF', // The color used for the status bar.
     themeColorDark: '#000000', // The color used for the dark status bar.
-    navigationColor: '#000000', // The color used for the navigation bar.
+    navigationColor: '#FFFFFF', // The color used for the navigation bar.
     navigationColorDark: '#000000', // The color used for the dark navbar.
-    navigationDividerColor: '#000000', // The navbar divider color.
+    navigationDividerColor: '#FFFFFF', // The navbar divider color.
     navigationDividerColorDark: '#000000', // The dark navbar divider color.
     backgroundColor: '#FFFFFF', // The color used for the splash screen background.
     enableNotifications: true, // Set to true to enable notification delegation.
