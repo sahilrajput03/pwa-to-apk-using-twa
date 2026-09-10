@@ -1,4 +1,5 @@
-#~/bin/bash
+#!/usr/bin/env bash
+
 PROJECT_DIR='/home/array/test/p1'
 # Note: Variable `KEYSTORE_PASSWORD` comes from my `/etc/environment` file.
 
