@@ -137,6 +137,9 @@
                         because they represent two diferent roles i.e,
                         - MAIN + LAUNCHER: shows the app in the app drawer.
                         - MAIN + HOME + DEFAULT: makes it eligible as the device’s Home app.
+
+                        > Both approaches work; I recommend keeping the separate
+                         filters for readability and easier future maintenance.
                         (Source: Codex)
             -->
             <intent-filter>
