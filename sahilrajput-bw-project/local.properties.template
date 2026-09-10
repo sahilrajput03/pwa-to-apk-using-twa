@@ -1,0 +1,12 @@
+# ~ Sahil: I created this .template file so that in case original copy of this file
+# is lost, I still have the base configuration that can be used to set up this project
+# in custom manner on different machines.
+
+## This file must *NOT* be checked into Version Control Systems,
+# as it contains information specific to your local configuration.
+#
+# Location of the SDK. This is only used by Gradle.
+# For customization when using a Version Control System, please read the
+# header note.
+#Fri Oct 06 01:59:38 IST 2023
+sdk.dir=/home/array/Android/Sdk
