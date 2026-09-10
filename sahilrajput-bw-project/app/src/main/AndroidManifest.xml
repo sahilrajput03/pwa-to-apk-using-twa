@@ -132,7 +132,7 @@
 
             
 
-            <!-- Learn: We can put MAIN, LAUNCHER, HOME and DEFAULT in one
+            <!-- ❤️ Learn: We can put MAIN, LAUNCHER, HOME and DEFAULT in one
                         intent-filter but keeping two intent-filters is clearer
                         because they represent two diferent roles i.e,
                         - MAIN + LAUNCHER: shows the app in the app drawer.
