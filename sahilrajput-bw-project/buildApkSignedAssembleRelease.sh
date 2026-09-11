@@ -36,8 +36,8 @@ $PROJECT_DIR/gradlew \
 
 if [ $? -eq 0 ]; then
 	echo Build successful ✅ ✅
-	### Uninstall old
-	# adb uninstall com.sahilrajput.twa
+	### Uninstall old (Useful to uninstall the previously installed apk.)
+	adb uninstall com.sahilrajput.twa
 	### Install APK
 	adb install ./app/build/outputs/apk/release/app-release.apk
 	# Kill activity (app)
