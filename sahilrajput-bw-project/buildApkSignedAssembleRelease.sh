@@ -37,23 +37,12 @@ $PROJECT_DIR/gradlew \
 if [ $? -eq 0 ]; then
 	echo Build successful ✅ ✅
 	### Uninstall old
-	adb uninstall com.sahilrajput.twa
+	# adb uninstall com.sahilrajput.twa
 	### Install APK
 	adb install ./app/build/outputs/apk/release/app-release.apk
+	# Open app after install
+	adb shell am start -n com.sahilrajput.twa/.LauncherActivity
 else
 	echo Build Failed ❌ ❌
 	exit 1
 fi
-
-
-### (Learn: I can avoid doing this to save time!)
-### Open app after install (nothing from below works, SAD)
-# adb shell am start -n com.sahilrajput.twa/LauncherActivity
-# adb shell am start -n com.sahilrajput.twa/com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity
-# adb shell am start -n com.sahilrajput.twa/com.google.androidbrowserhelper.trusted.FocusActivity
-# adb shell am start -n com.sahilrajput.twa/com.google.com.google.androidbrowserhelper.trusted.WebViewFallbackActivity
-# adb shell am start -n com.sahilrajput.twa/com.google.androidbrowserhelper.trusted.NotificationPermissionRequestActivity
-
-# TODO: Do making of AAB file later (probably make second script for AAB generation)
-# Generate AAB
-# /app/build/outputs/bundle/release/..?
