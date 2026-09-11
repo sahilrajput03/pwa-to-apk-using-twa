@@ -23,7 +23,7 @@ plugins {
 def twaManifest = [
     applicationId: 'com.sahilrajput.twa',
     hostName: 'sahilrajput.com', // The domain being opened in the TWA.
-    launchUrl: '/', // The start path for the TWA. Must be relative to the domain.
+    launchUrl: '/articles', // The start path for the TWA. Must be relative to the domain.
     name: 'Tech Blog by Sahil Rajput', // The application name.
     launcherName: 'Tech Blog by Sahil Rajput', // The name shown on the Android Launcher.
     themeColor: '#FFFFFF', // The color used for the status bar.

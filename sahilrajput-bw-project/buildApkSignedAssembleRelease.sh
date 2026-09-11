@@ -40,7 +40,9 @@ if [ $? -eq 0 ]; then
 	# adb uninstall com.sahilrajput.twa
 	### Install APK
 	adb install ./app/build/outputs/apk/release/app-release.apk
-	# Open app after install
+	# Kill activity (app)
+	# adb shell am force-stop com.sahilrajput.twa
+	# Open activity (app)
 	adb shell am start -n com.sahilrajput.twa/.LauncherActivity
 else
 	echo Build Failed ❌ ❌
