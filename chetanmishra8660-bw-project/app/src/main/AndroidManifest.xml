@@ -122,8 +122,14 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
-                <!-- ❤️ Learn: Declares this activity as a Home/Launcher activity -->
+            </intent-filter>
+
+            <!-- ❤️ Learn: Declares this activity as a Home/Launcher activity -->
+            <!-- Src: https://docs.google.com/document/d/1KtIn7M7YhA-ezcuJ9Wgb-l4WpT5fnSNXl9Zrpli6meE/edit?tab=t.0#heading=h.79dhfi4p1iu9 -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
 
             <intent-filter android:autoVerify="true">
